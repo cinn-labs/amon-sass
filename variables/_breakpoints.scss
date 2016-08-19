@@ -1,0 +1,8 @@
+$small: new-breakpoint(max-width $smallBreakpoint) !default;
+$medium: new-breakpoint(min-width $smallBreakpoint max-width $largeBreakpoint) !default;
+$mediumUp: new-breakpoint(min-width $smallBreakpoint) !default;
+$mediumDown: new-breakpoint(max-width $largeBreakpoint) !default;
+$large: new-breakpoint(min-width $largeBreakpoint) !default;
+$xLarge: new-breakpoint(min-width $xLargeBreakpoint) !default;
+$maxWidthDown: new-breakpoint(max-width $maxWidth + 4em) !default;
+$maxWidthUp: new-breakpoint(min-width $maxWidth) !default;

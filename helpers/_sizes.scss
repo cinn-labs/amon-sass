@@ -1,0 +1,41 @@
+@each $sizeName, $size in $sizes{
+  &.#{$sizeName}Margin { margin: $size !important; }
+  &.#{$sizeName}MarginLeft { margin-left: $size !important; }
+  &.#{$sizeName}MarginRight { margin-right: $size !important; }
+  &.#{$sizeName}MarginTop { margin-top: $size !important; }
+  &.#{$sizeName}MarginBottom { margin-bottom: $size !important; }
+  &.#{$sizeName}MarginY { margin-bottom: $size !important; margin-top: $size !important; }
+  &.#{$sizeName}MarginX { margin-left: $size !important; margin-right: $size !important; }
+
+  &.#{$sizeName}Padding { padding: $size !important; }
+  &.#{$sizeName}PaddingLeft { padding-left: $size !important; }
+  &.#{$sizeName}PaddingRight { padding-right: $size !important; }
+  &.#{$sizeName}PaddingTop { padding-top: $size !important; }
+  &.#{$sizeName}PaddingBottom { padding-bottom: $size !important; }
+  &.#{$sizeName}PaddingY { padding-bottom: $size !important; padding-top: $size !important; }
+  &.#{$sizeName}PaddingX { padding-left: $size !important; padding-right: $size !important; }
+
+  &.#{$sizeName}MaxWidth { max-width: $size !important; }
+
+  &.#{$sizeName}Width { width: $size !important; }
+  &.#{$sizeName}MinWidth { min-width: $size !important; }
+  &.#{$sizeName}MaxWidth { max-width: $size !important; }
+
+  &.#{$sizeName}Height { height: $size !important; }
+  &.#{$sizeName}MinHeight { min-height: $size !important; }
+  &.#{$sizeName}MaxHeight { max-height: $size !important; }
+}
+
+.noMargin { margin: 0 !important; }
+.noMarginTop { margin-top: 0 !important; }
+.noMarginBottom { margin-bottom: 0 !important; }
+.noMarginLeft { margin-left: 0 !important; }
+.noMarginRight { margin-right: 0 !important; }
+.noMarginX { margin-left: 0 !important; margin-right: 0 !important; }
+.noMarginY { margin-top: 0 !important; margin-bottom: 0 !important; }
+
+// TODO: Use vars
+.fullWidth { width: 100%; }
+.largeWidth { max-width: rem(640) !important; }
+.mediumWidth { max-width: rem(482) !important; }
+.smallWidth { max-width: rem(290) !important; }

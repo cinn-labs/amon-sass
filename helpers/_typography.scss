@@ -1,0 +1,35 @@
+.textRight { text-align: right !important; }
+.textLeft { text-align: left !important; }
+.textCenter { text-align: center !important; }
+
+.thinWeight { font-weight: 100 !important; }
+.lightWeight { font-weight: 200 !important; }
+.normalWeight { font-weight: 300 !important; }
+.mediumWeight { font-weight: 400 !important; }
+.boldWeight { font-weight: 500 !important; }
+.xboldWeight { font-weight: 600; }
+.xxboldWeight { font-weight: 700; }
+.xxxboldWeight { font-weight: 900; }
+
+.minLineHeight { line-height: 1em; }
+.smallLineHeight { line-height: 1.15em; }
+.mediumLineHeight { line-height: 1.4em; }
+
+.noTextTransform { text-transform: none !important; }
+.uppercase { text-transform: uppercase !important; }
+
+*, * *{
+  font-family: $firstFontFamily;
+}
+
+@each $sizeName, $size in $fontsSizes{
+  &.#{$sizeName}FontSize,
+  &.#{$sizeName}FontSize * { font-size: $size !important; }
+}
+
+@each $name, $size in $fontsFamilies{
+  &.#{$name}FontFamily,
+  &.#{$name}Font,
+  &.#{$name}Font *,
+  &.#{$name}FontFamily * { font-size: $size !important; }
+}

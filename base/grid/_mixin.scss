@@ -1,0 +1,28 @@
+@mixin generate-grid($class_name){
+  @for $i from 1 through $grid-columns{
+    &:not(.noMargin) > .#{$class_name}#{$i}{
+      @include span-columns($i);
+    }
+    &.noMargin > .#{$class_name}#{$i}{
+      @include span-columns($i, block-collapse);
+    }
+  }
+}
+
+@mixin generate-block-grid($class_name, $no-margin: false){
+  @for $i from 1 through 10{
+    $columns-weight: 12 / $i;
+    &.#{$class_name}#{$i}:not(.noMargin) > li{
+      @include span-columns($columns-weight);
+    }
+    &.#{$class_name}#{$i}.noMargin > li{
+      @include span-columns(1 of $i, block-collapse);
+    }
+    &.#{$class_name}#{$i} > li{
+      @include omega(#{$i}n);
+      &:nth-of-type(#{$i}n+1) {
+        clear: both;
+      }
+    }
+  }
+}

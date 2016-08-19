@@ -1,0 +1,50 @@
+.cnRow,
+.cnBlockGrid,
+.cnBoxed{
+  @include outer-container($local-max-width: $maxWidth);
+
+  @include media($maxWidthDown) {
+    padding: 0 $mediumSmallDevicesPadding;
+  }
+
+  @include media($xLarge) {
+    @include outer-container($local-max-width: $maxWidth * 1.3);
+  }
+
+	.cnRow,
+	.cnBlockGrid,
+	.cnBoxed{
+    padding: 0;
+  }
+}
+.cnBlockGrid{
+  list-style: none;
+
+  @include media($large) {
+    padding-left: 0;
+  }
+}
+.cnRow{
+  @include media($large) {
+    @include generate-grid(cnLarge);
+  }
+  @include media($medium) {
+    @include generate-grid(cnMedium);
+  }
+  @include media($small) {
+    @include generate-grid(cnSmall);
+  }
+  @include generate-grid(cnAll);
+}
+.cnBlockGrid{
+  @include media($large) {
+    @include generate-block-grid(cnLarge);
+  }
+  @include media($medium) {
+    @include generate-block-grid(cnMedium);
+  }
+  @include media($small) {
+    @include generate-block-grid(cnSmall);
+  }
+  @include generate-block-grid(cnAll);
+}

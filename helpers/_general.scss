@@ -1,0 +1,14 @@
+.clicable { cursor: pointer; }
+
+.clearfix { @include clearfix; }
+
+.block { display: block; }
+.inlineBlock { display: inline-block; }
+.inline { display: inline; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.relative { position: relative; }
+.marginXAuto { margin-left: auto; margin-right: auto; }
+.floatRight { float: right; }
+.floatLeft { float: left; }
+.verticalAlignMiddle { vertical-align: middle; }

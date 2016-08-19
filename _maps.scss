@@ -1,0 +1,69 @@
+$defaultColors: (
+  'first': $first,
+  'second': $second,
+  'third': $third,
+  'fourth': $fourth,
+
+  'black': $black,
+  'white': $white,
+
+  'detail1': $detail1,
+  'detail2': $detail2,
+  'detail3': $detail3,
+  'detail4': $detail4,
+  'lightDetail1': $lightDetail1,
+  'lightDetail2': $lightDetail2,
+  'lightDetail3': $lightDetail3,
+  'lightDetail4': $lightDetail4,
+  'lightDetail5': $lightDetail5,
+
+  'alert': $alert,
+  'warn': $warn,
+  'success': $success,
+  'info': $info,
+
+  'transparent': $transparent,
+);
+$colors: map-merge($defaultColors, $customColors);
+
+$defaultSizes: (
+  'xxxSmall': $xxxSmallSize,
+  'xxSmall': $xxSmallSize,
+  'xSmall': $xSmallSize,
+  'small': $smallSize,
+  'medium': $mediumSize,
+  'large': $largeSize,
+  'xLarge': $xLargeSize,
+  'xxLarge': $xxLargeSize,
+  'xxxLarge': $xxxLargeSize,
+  'huge': $hugeSize,
+  'xHuge': $xHugeSize,
+  'xxHuge': $xxHugeSize,
+  'xxxHuge': $xxxHugeSize,
+  'maxWidth': $maxWidth,
+  'smallBreakpoint': $smallBreakpoint,
+  'largeBreakpoint': $largeBreakpoint,
+  'xLargeBreakpoint': $xLargeBreakpoint,
+  'xxLargeBreakpoint': $xxLargeBreakpoint,
+);
+$sizes: map-merge($defaultSizes, $customSizes);
+
+$defaultFontsFamilies: (
+  'first': $firstFontFamily,
+  'second': $secondFontFamily,
+);
+$fontsFamilies: map-merge($defaultFontsFamilies, $customFontsFamilies);
+
+$defaultFontsSizes: (
+  'xxxLarge': $xxxLargeFont,
+  'xxLarge': $xxLargeFont,
+  'xLarge': $xLargeFont,
+  'large': $largeFont,
+  'mediumFont': $mediumFont,
+  'main': $mainFont,
+  'smallFont': $smallFont,
+  'xSmall': $xSmallFont,
+  'xxSmall': $xxSmallFont,
+  'xxxSmall': $xxxSmallFont,
+);
+$fontsSizes: map-merge($defaultFontsSizes, $customFontsSizes);

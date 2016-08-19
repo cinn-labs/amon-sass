@@ -1,0 +1,5 @@
+@each $colorName, $colorValue in $colors{
+  .#{$colorName}Color { color: $colorValue !important; }
+  .#{$colorName}BgColor { background-color: $colorValue !important; }
+  .#{$colorName}BorderColor { border-color: $colorValue !important; }
+}
