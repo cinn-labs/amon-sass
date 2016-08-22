@@ -1,66 +1,68 @@
 $node-modules-path: '../node_modules' !default;
 $icomoon-font-path: 'amon-sass/icons' !default;
 
-$cn-iconamazon: "\e900";
-$cn-iconandroid: "\e901";
-$cn-iconangellist: "\e902";
-$cn-iconangle-left: "\e903";
-$cn-iconangle-right: "\e904";
-$cn-iconapple: "\e905";
-$cn-iconbars: "\e906";
-$cn-iconbehance: "\e907";
-$cn-iconcaret-down: "\e908";
-$cn-iconcaret-left: "\e909";
-$cn-iconcaret-right: "\e90a";
-$cn-iconcaret-up: "\e90b";
-$cn-iconclose: "\e90c";
-$cn-iconcodepen: "\e90d";
-$cn-icondelicious: "\e90e";
-$cn-icondigg: "\e90f";
-$cn-icondots: "\e910";
-$cn-icondribble: "\e911";
-$cn-icondropbox: "\e912";
-$cn-iconetsy-short: "\e913";
-$cn-iconetsy: "\e914";
-$cn-iconevernote: "\e915";
-$cn-iconfacebook: "\e916";
-$cn-iconflikr: "\e917";
-$cn-iconfoursquare: "\e918";
-$cn-icongithub: "\e919";
-$cn-icongoogledrive: "\e91a";
-$cn-icongoogleplay: "\e91b";
-$cn-icongoogleplus: "\e91c";
-$cn-iconhabrahabr: "\e91d";
-$cn-iconinstagram: "\e91e";
-$cn-iconlike: "\e91f";
-$cn-iconlinkedin: "\e920";
-$cn-iconmail: "\e921";
-$cn-iconmap: "\e922";
-$cn-iconmedium: "\e923";
-$cn-iconok: "\e924";
-$cn-iconphone: "\e925";
-$cn-iconpinterest-light: "\e926";
-$cn-iconpinterest: "\e927";
-$cn-iconplus-circle: "\e928";
-$cn-iconquora: "\e929";
-$cn-iconquotes-close: "\e92a";
-$cn-iconquotes-open: "\e92b";
-$cn-iconreddit: "\e92c";
-$cn-iconrss: "\e92d";
-$cn-iconskype: "\e92e";
-$cn-iconsmile: "\e92f";
-$cn-iconstackoverflow: "\e930";
-$cn-iconstumbleupon: "\e931";
-$cn-iconswarm: "\e932";
-$cn-iconthunder-aa: "\e933";
-$cn-icontripadvisor: "\e934";
-$cn-icontumblr: "\e935";
-$cn-icontwitter: "\e936";
-$cn-iconvertical-dots: "\e937";
-$cn-iconvimeo: "\e938";
-$cn-iconvk: "\e939";
-$cn-iconwindows: "\e93a";
-$cn-iconwordpress: "\e93b";
-$cn-iconyelp: "\e93c";
-$cn-iconyoutube-play: "\e93d";
-$cn-iconyoutube: "\e93e";
+$icons: (
+  'cnIconAmazon': "\e900",
+  'cnIconAndroid': "\e901",
+  'cnIconAngellist': "\e902",
+  'cnIconAngleLeft': "\e903",
+  'cnIconAngleRight': "\e904",
+  'cnIconApple': "\e905",
+  'cnIconBars': "\e906",
+  'cnIconBehance': "\e907",
+  'cnIconCaretDown': "\e908",
+  'cnIconCaretLeft': "\e909",
+  'cnIconCaretRight': "\e90a",
+  'cnIconCaretUp': "\e90b",
+  'cnIconClose': "\e90c",
+  'cnIconCodepen': "\e90d",
+  'cnIconDelicious': "\e90e",
+  'cnIconDigg': "\e90f",
+  'cnIconDots': "\e910",
+  'cnIconDribble': "\e911",
+  'cnIconDropbox': "\e912",
+  'cnIconEtsyShort': "\e913",
+  'cnIconEtsy': "\e914",
+  'cnIconEvernote': "\e915",
+  'cnIconFacebook': "\e916",
+  'cnIconFlikr': "\e917",
+  'cnIconFoursquare': "\e918",
+  'cnIconGithub': "\e919",
+  'cnIconGoogledrive': "\e91a",
+  'cnIconGoogleplay': "\e91b",
+  'cnIconGoogleplus': "\e91c",
+  'cnIconHabrahabr': "\e91d",
+  'cnIconInstagram': "\e91e",
+  'cnIconLike': "\e91f",
+  'cnIconLinkedin': "\e920",
+  'cnIconMail': "\e921",
+  'cnIconMap': "\e922",
+  'cnIconMedium': "\e923",
+  'cnIconOk': "\e924",
+  'cnIconPhone': "\e925",
+  'cnIconPinterestLight': "\e926",
+  'cnIconPinterest': "\e927",
+  'cnIconPlusCircle': "\e928",
+  'cnIconQuora': "\e929",
+  'cnIconQuotesClose': "\e92a",
+  'cnIconQuotesOpen': "\e92b",
+  'cnIconReddit': "\e92c",
+  'cnIconRss': "\e92d",
+  'cnIconSkype': "\e92e",
+  'cnIconSmile': "\e92f",
+  'cnIconStackoverflow': "\e930",
+  'cnIconStumbleupon': "\e931",
+  'cnIconSwarm': "\e932",
+  'cnIconThunder': "\e933",
+  'cnIconTripadvisor': "\e934",
+  'cnIconTumblr': "\e935",
+  'cnIconTwitter': "\e936",
+  'cnIconVerticalDots': "\e937",
+  'cnIconVimeo': "\e938",
+  'cnIconVk': "\e939",
+  'cnIconWindows': "\e93a",
+  'cnIconWordpress': "\e93b",
+  'cnIconYelp': "\e93c",
+  'cnIconYoutubePlay': "\e93d",
+  'cnIconYoutube': "\e93e",
+);
