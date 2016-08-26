@@ -31,5 +31,5 @@
   &.#{$name}FontFamily,
   &.#{$name}Font,
   &.#{$name}Font *,
-  &.#{$name}FontFamily * { font-size: $size !important; }
+  &.#{$name}FontFamily * { font-family: $size !important; }
 }
