@@ -21,8 +21,6 @@ $defaultColors: (
   'warn': $warn,
   'success': $success,
   'info': $info,
-
-  'transparent': $transparent,
 );
 $colors: map-merge($defaultColors, $customColors);
 
