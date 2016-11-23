@@ -1,37 +1,37 @@
-.hide { display: none; }
+.hide { display: none !important; }
 
 @media only screen and (max-width: $smallBreakpoint) {
-  .hideSmall{ display: none; }
+  .hideSmall{ display: none !important; }
 }
 
 @media only screen and (min-width: $smallBreakpoint) and (max-width: $largeBreakpoint) {
-  .hideMedium{ display: none; }
+  .hideMedium{ display: none !important; }
 }
 
 @media only screen and (max-width: $largeBreakpoint) {
-  .hideMediumDown{ display: none; }
+  .hideMediumDown{ display: none !important; }
 }
 
 @media only screen and (min-width: $largeBreakpoint) and (max-width: $xLargeBreakpoint) {
-  .hideLarge{ display: none; }
+  .hideLarge{ display: none !important; }
 }
 
 @media only screen and (max-width: $xLargeBreakpoint) {
-  .hideLargeDown{ display: none; }
+  .hideLargeDown{ display: none !important; }
 }
 
 @media only screen and (min-width: $largeBreakpoint) {
-  .hideLargeUp{ display: none; }
+  .hideLargeUp{ display: none !important; }
 }
 
 @media only screen and (min-width: $xLargeBreakpoint) and (max-width: $xxLargeBreakpoint) {
-  .hideXlarge{ display: none; }
+  .hideXlarge{ display: none !important; }
 }
 
 @media only screen and (max-width: $xxLargeBreakpoint) {
-  .hideXlargeDown{ display: none; }
+  .hideXlargeDown{ display: none !important; }
 }
 
 @media only screen and (min-width: $xxLargeBreakpoint) {
-  .hideXxlarge{ display: none; }
+  .hideXxlarge{ display: none !important; }
 }
