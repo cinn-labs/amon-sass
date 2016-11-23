@@ -20,6 +20,7 @@
 
 *, * *{
   font-family: $firstFontFamily;
+  color: $detail1;
 }
 
 @each $sizeName, $size in $fontsSizes{
